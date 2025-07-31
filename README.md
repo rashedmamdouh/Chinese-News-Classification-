@@ -33,7 +33,6 @@ This project implements Chinese news classification using datasets like **THUCNe
 ├── models/                 # Saved trained models / checkpoints
 ├── notebooks/              # Jupyter notebooks for experiments and visualization
 ├── requirements.txt
-├── app.py (optional)       # REST API via FastAPI or Flask
 └── reports/                # Metrics plots: confusion matrices, ROC curves, learning curves
 
 ````
