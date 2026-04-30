@@ -1,10 +1,10 @@
-# 📰 Chinese News Classification using BERT
+#  Chinese News Classification using BERT
 
 This project demonstrates Chinese news article classification using a fine-tuned BERT model (`bert-base-chinese`) with Hugging Face's `transformers` library. The goal is to classify news articles into categories such as domestic, international, or general content.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 - **Dataset:** Labeled Chinese news articles (`chinese_news.csv`)
 - **Model:** `bert-base-chinese` fine-tuned using Hugging Face `Trainer`
@@ -16,7 +16,7 @@ This project demonstrates Chinese news article classification using a fine-tuned
 
 ---
 
-## 🚀 Features
+##  Features
 
 - End-to-end pipeline in a single Jupyter Notebook
 - Tokenization using BERT tokenizer (handles Chinese)
@@ -26,7 +26,7 @@ This project demonstrates Chinese news article classification using a fine-tuned
 
 ---
 
-## 📁 Files
+##  Files
 
 - `ChineseNewsClassifier.ipynb` – Full code for preprocessing, training, evaluation, and prediction
 - `README.md` – Project documentation
@@ -35,7 +35,7 @@ This project demonstrates Chinese news article classification using a fine-tuned
 
 ---
 
-## 🔧 Requirements
+##  Requirements
 
 Install dependencies via:
 
@@ -45,7 +45,7 @@ pip install pandas scikit-learn matplotlib datasets transformers torch
 
 ---
 
-## 📈 Results
+##  Results
 
 * **Validation Accuracy:** \~92.4%
 * **Test Accuracy:** \~92.7%
@@ -53,18 +53,11 @@ pip install pandas scikit-learn matplotlib datasets transformers torch
 
 ---
 
-## ✨ Highlights
+##  Highlights
 
 * Fine-tuned a BERT model on Chinese text for multi-class classification
 * Used Hugging Face `Trainer` API for streamlined training
 * Evaluated performance using accuracy and F1-score
 * Output includes predicted vs true labels for test set
   
----
-
-## 👨‍💻 Author
-
-**Rashed Mamdouh**
-AI Engineer — Arabic / English / 中文 | NLP & Transformers
-[GitHub](https://github.com/rashedmamdouh)
 
